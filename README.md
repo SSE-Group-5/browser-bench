@@ -23,6 +23,11 @@ This tool automates energy consumption measurements for web browsers while runni
    }
    ```
    For more setup instructions, see [pyEnergiBridge on GitHub](https://github.com/luiscruz/pyEnergiBridge).
+   On Linux, after every reboot, the permissions need to be set again on the MSR files:
+   ```sh
+   sudo chgrp -R msr /dev/cpu/*/msr;
+   sudo chmod g+r /dev/cpu/*/msr;
+   ```
 
 ## Usage
 
