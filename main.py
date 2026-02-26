@@ -22,7 +22,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 OUTPUT_CSV = "final_experiment_results.csv"
 WARMUP_ROUNDS = 5
 ACTUAL_ROUNDS = 30
-BROWSER = "chrome"  # "chrome" or "firefox"
+BROWSER = "firefox"  # "chrome" or "firefox"
 MAX_RETRIES = 2
 COOLDOWN_SEC = 2
 
