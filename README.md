@@ -55,6 +55,11 @@ Run the benchmark suite:
 uv run main.py
 ```
 
+For windows users, run this:
+```sh
+uv run main_windows.py
+```
+
 ## Configuration
 
 Edit the `--- CONFIGURATION ---` section in `main.py` to adjust:
